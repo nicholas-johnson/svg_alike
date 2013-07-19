@@ -19,7 +19,7 @@
       div.innerHTML = '<svg/>';
       return (div.firstChild && div.firstChild.namespaceURI) == 'http://www.w3.org/2000/svg';
     }
-    if (!svgSupport) {
+    if (!svgSupport()) {
       this.find('img[src^=".svg"').each(function() {
         $(this).attr('src', img.attr('src').replace(".svg", ".jpg"));
       })
