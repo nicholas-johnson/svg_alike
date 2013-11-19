@@ -1,6 +1,8 @@
 /*
   Self contained SVG polyfill
 
+  Version 1.2
+
   SVG is awesome. You get double density out of the box, you can pinch to zoom without pixelation, but what about IE8?
   SVG-alike checks for SVG support, and if it doesn't find it, swaps in a PNG instead.
 
@@ -26,4 +28,7 @@
     }
     return self;
   }
+  $(function() {
+    $('body').svgAlike();
+  });
 })(jQuery);
