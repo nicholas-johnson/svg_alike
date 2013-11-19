@@ -6,7 +6,7 @@
         "svg",
         "polyfill"
     ],
-    "version": "1.0.2",
+    "version": "1.0.22",
     "author": {
         "name": "Nicholas Johnson",
         "url": "https://github.com/forwardadvance/svg_alike"
