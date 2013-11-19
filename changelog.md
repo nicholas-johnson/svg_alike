@@ -1,5 +1,9 @@
 # SVG Alike Changelog
 
+## Version 1.3
+
+Published to JQuery Plugin directory
+
 ## Version 1.2
 
 Added in code to automatically call the function onDomReady. You only need to include the file.
