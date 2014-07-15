@@ -27,7 +27,7 @@
         $(this).attr('src', $(this).attr('src').replace(".svg", ".png"));
       })
     }
-    return self;
+    return this;
   }
   $(function() {
     $('body').svgAlike();
